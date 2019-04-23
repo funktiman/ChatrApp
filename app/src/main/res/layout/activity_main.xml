@@ -7,12 +7,38 @@
     tools:context="com.example.funkitman.chatapp.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_width="337dp"
+        android:layout_height="458dp"
+        android:text="Chat output"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="68dp"
+        android:layout_height="46dp"
+        android:text="Send"
+        tools:layout_editor_absoluteX="416dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="218dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Your message"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="697dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:text="Log"
+        tools:layout_editor_absoluteX="415dp"
+        tools:layout_editor_absoluteY="100dp" />
 
 </android.support.constraint.ConstraintLayout>
