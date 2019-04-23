@@ -5,7 +5,8 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    public string navn "";
+    public string navn = "";
+    public string chatMessage = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
